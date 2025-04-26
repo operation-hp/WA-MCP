@@ -1,0 +1,12 @@
+# wwebjs auth sessions (binary chromium profile)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# build artifacts
+build/
+
+# dependencies
+node_modules/
+
+# misc
+.DS_Store

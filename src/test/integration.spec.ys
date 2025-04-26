@@ -1,0 +1,14 @@
+import { parseCommandLine } from '../src/utils/command-parser';
+
+describe('Command Parser', () => {
+  test('Parses commands with spaces', () => {
+    const result = parseCommandLine(
+      'mcp connect server1 "C:/Program Files/server.js"'
+    );
+    
+    expect(result.command).toEqual(['mcp']);
+    expect(result.args).toEqual(['connect', 'server1', 'C:/Program Files/server.js']);
+  });
+});
+
+// Add more integration tests...
