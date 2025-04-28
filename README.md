@@ -30,6 +30,7 @@ This project lets you start an MCP server from WhatsApp and interact via chat me
 
 3. **Install dependencies**  
    ```bash
+   nvm use 20 
    npm install
    ```
 
