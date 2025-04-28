@@ -1,6 +1,6 @@
 {
-    "name": "mcp-whatsapp",
-    "version": "1.0.0",
+    "name": "WA-MCP client",
+    "version": "0.1.0",
     "main": "build/index.js",
     "scripts": {
         "start": "node build/index.js",

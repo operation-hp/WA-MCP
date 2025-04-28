@@ -51,8 +51,8 @@ export class MCPClientManager {
   
     const client = new MCPClient(
       {
-        name: "example-client",
-        version: "1.0.0"
+        name: "WA-MCP-client",
+        version: "0.1.0"
       },
       {
         capabilities: {

@@ -387,7 +387,7 @@ private async processQuery(query: string): Promise<string> {
               CallToolResultSchema
             );
 
-            finalText.push(`[Called tool ${toolName}]`);
+            //finalText.push(`[Called tool ${toolName}]`);
 
             if (result?.content) {
               const textContent = result.content
