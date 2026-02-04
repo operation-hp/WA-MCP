@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@anthropic-ai/sdk": "^0.39.0",
-        "@modelcontextprotocol/sdk": "^1.10.2",
+        "@modelcontextprotocol/sdk": "^1.26.0",
         "dotenv": "^16.0.3",
         "edge-paths": "^3.0.5",
         "puppeteer": "^24.4.0",
